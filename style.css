@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+path{
+    fill: #ECCEA7;
+    stroke: #fff;
+    stroke-width: 3px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+path:hover{
+    fill: #FA9E27;
+}
+
+.informs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa-Estados{
+    height: 50vh;
+    width: 25vw;
+    background-color: #F5E7D3;
+}
+
+.arrumarContainerHeader{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-header{
+    height: 10vh;
+    width: 20vw;
+    background-color: #F5E7D3;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.estado-escolhido-sigla{
+    width: 5rem;
+    height: 5rem;
+    background-color: #FA9E27;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.siglaEstado{
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.nome-capital-regiao{
+
+}
+
+.nomeEstado{
+    color: #FA9E27;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.capitalEstadoDoisPontos{
+    font-weight: 900;
+}
+
+.regiaoEstadoDoisPontos{
+    font-weight: 900;
+}
+
+.arrumarContainerCidades{
+    height: 35vh;
+    width: 100%;
+}
+
+.sayCidades{
+    font-weight: 900;
+    padding-left: 2.5rem;
+}
+
+.containerListaCidades{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li{
+    list-style: none;
+    font-weight: 500;
+}
