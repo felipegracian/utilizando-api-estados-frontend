@@ -8,5 +8,8 @@ const getEstados = (event) =>{
     console.log(estado)
 }
 
+
 mapa.addEventListener('click', getEstados)
+
+
 
